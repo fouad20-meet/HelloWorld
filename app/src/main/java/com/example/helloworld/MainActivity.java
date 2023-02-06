@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         title = findViewById(R.id.food);
         food = findViewById(R.id.food_name);
         submit = findViewById(R.id.submit);
-        submit.setOnClickListener(this);
     }
 
     @Override
